@@ -1,0 +1,13 @@
+#!/bin/bash
+
+set -e -x
+
+cd $(dirname $0)/..
+
+./scripts/bootstrap
+
+if [ -z "$VIRTUAL_ENV" ];then 
+. ./.env/bin/activate
+fi
+
+./scripts/test
