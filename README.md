@@ -43,7 +43,7 @@ Add the below to your `.bashrc` or similar profile script:
 eval "$(register-python-argcomplete cattle)"
 ```
 
-## Using API
+## Using API.
 
 ```python
 
