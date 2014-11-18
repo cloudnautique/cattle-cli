@@ -2,6 +2,7 @@
 
 set -e -x
 
+# comment
 cd $(dirname $0)/..
 
 ./scripts/bootstrap
